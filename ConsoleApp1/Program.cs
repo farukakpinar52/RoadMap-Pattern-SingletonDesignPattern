@@ -31,7 +31,7 @@ SDPExampleWithProp prop5 = SDPExampleWithProp.GetInstance;
 //return _example
 
 //2.YÖNTEM *** Bu yöntemi tercih edersek daha basit bir şekilde async süreçleri yönetmiş oluruz.
-//Sınıfa bir static constructer verip nesneyi orada ürettirirsek Lock mekanizmasını kullanmaya gerek kalmaz.
+//Sınıfa bir static constructer verip nesneyi orada ürettirirsek Lock mekanizmasını kullanmaya gerek kalmaz..
 List<Task> tasks = new List<Task>();
 
 for (int i = 0; i < 100; i++) //100 kez Task oluşturduk
